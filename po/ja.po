@@ -6,25 +6,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pdfmod master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?"
-"product=pdfmod&keywords=I18N+L10N&component=general\n"
-"POT-Creation-Date: 2011-12-09 12:51+0000\n"
-"PO-Revision-Date: 2012-01-11 20:47+0900\n"
-"Last-Translator: Jiro Matsuzawa <jmatsuzawa@src.gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pdfmod&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-03-19 10:48+0000\n"
+"PO-Revision-Date: 2012-06-12 20:58+0900\n"
+"Last-Translator: OKANO Takayoshi <kano@na.rim.or.jp>\n"
 "Language-Team: Japanese <takeshi.aihana@gmail.com>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../data/pdfmod.desktop.in.in.h:1
-msgid "PDF Modifier"
-msgstr "PDF の変更"
+msgid "Remove, extract, and rotate pages in PDF documents"
+msgstr "PDF ドキュメントのページの削除や抜き出しや回転を行います"
 
 #: ../data/pdfmod.desktop.in.in.h:2
-msgid "Remove, extract, and rotate pages in PDF documents"
-msgstr "PDF ドキュメントのページの削除や展開や回転を行います"
+msgid "PDF Modifier"
+msgstr "PDF の変更"
 
 #: ../src/PdfMod/Pdf/Actions/ExportImagesAction.cs:138
 #: ../src/PdfMod/Pdf/Page.cs:36
@@ -110,7 +109,7 @@ msgstr "検索して選択..."
 
 #: ../src/PdfMod/Gui/Actions.cs:85
 msgid "_Invert Selection"
-msgstr "検索の反転(_I)"
+msgstr "選択の反転(_I)"
 
 #: ../src/PdfMod/Gui/Actions.cs:87
 msgid "_View"
@@ -196,8 +195,7 @@ msgstr[1] "{0}個の画像のエキスポート"
 msgid "Save image from the selected pages to a new folder"
 msgid_plural "Save {0} images from the selected pages to a new folder"
 msgstr[0] "選択したページに含まれている画像を新しいフォルダーに保存します"
-msgstr[1] ""
-"選択したページに含まれている{0}個の画像を新しいフォルダーに保存します"
+msgstr[1] "選択したページに含まれている{0}個の画像を新しいフォルダーに保存します"
 
 #: ../src/PdfMod/Gui/Actions.cs:196
 msgid "_Undo"
