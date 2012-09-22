@@ -6,121 +6,228 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pdfmod master\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-29 10:46+0300\n"
-"PO-Revision-Date: 2009-07-29 11:15+0300\n"
-"Last-Translator: Žygimantas Beručka <zygis@gnome.org>\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=pdfmod&component=general\n"
+"POT-Creation-Date: 2011-03-03 18:02+0000\n"
+"PO-Revision-Date: 2012-09-22 14:17+0300\n"
+"Last-Translator: Aurimas Černius <aurisc4@gmail.com>\n"
 "Language-Team: Lithuanian <gnome-lt@lists.akl.lt>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#: ../data/pdfmod.desktop.in.h:1 ../src/PdfMod/PdfMod/PdfMod.cs:63
-msgid "PDF Mod"
-msgstr "PDF Mod"
-
-#: ../data/pdfmod.desktop.in.h:2
+#: ../data/pdfmod.desktop.in.in.h:1
 msgid "PDF Modifier"
 msgstr "PDF taisymo programa"
 
-#: ../data/pdfmod.desktop.in.h:3
+#: ../data/pdfmod.desktop.in.in.h:2
 msgid "Remove, extract, and rotate pages in PDF documents"
 msgstr "Galite šalinti, išgauti ir pasukti PDF dokumentų puslapius"
 
-#: ../src/PdfMod/PdfMod.Actions/ExportImagesAction.cs:85
-msgid "/Subtype"
-msgstr "/Potipis"
+#: ../src/PdfMod/Pdf/Actions/ExportImagesAction.cs:138
+#: ../src/PdfMod/Pdf/Page.cs:36
+#, csharp-format
+msgid "Page {0}"
+msgstr "{0} puslapis"
 
-#: ../src/PdfMod/PdfMod.Actions/MoveAction.cs:28
+#. Translators: {0} is the # of pages, {1} is a translated string summarizing the pages, eg "page 1"
+#: ../src/PdfMod/Pdf/Actions/MoveAction.cs:24
+#, csharp-format
+#| msgid "Page {1}"
+#| msgid_plural "Page {1}"
+msgid "Move {1}"
+msgid_plural "Move {1}"
+msgstr[0] "Perkelti {1}"
+msgstr[1] "Perkelti {1}"
+msgstr[2] "Perkelti {1}"
+
+#: ../src/PdfMod/Pdf/Actions/MoveAction.cs:31
 msgid "Error trying to unmove pages"
 msgstr "Klaida bandant grąžinti puslapius"
 
-#: ../src/PdfMod/PdfMod.Actions/MoveAction.cs:38
+#: ../src/PdfMod/Pdf/Actions/MoveAction.cs:41
 msgid "Error trying to move pages"
 msgstr "Klaida bandant perkelti puslapius"
 
-#: ../src/PdfMod/PdfMod.Actions/RemoveAction.cs:41
-msgid "Error trying to remove pages from document"
-msgstr "Klaida bandant pašalinti puslapius iš dokumento"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:46
-msgid "Open a document"
-msgstr "Atverti dokumentą"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:47
-msgid "Save changes to this document, overwriting the existing file"
-msgstr "Įrašyti šio dokumento pakeitimus, perrašant jau esantį failą"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:48
-msgid "Save this document to a new file"
-msgstr "Įrašyti šį dokumentą į naują failą"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:50
+#: ../src/PdfMod/Gui/Actions.cs:65
 msgid "_File"
 msgstr "_Failas"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:51
+#: ../src/PdfMod/Gui/Actions.cs:66
+msgid "Open a document"
+msgstr "Atverti dokumentą"
+
+#: ../src/PdfMod/Gui/Actions.cs:67
+msgid "Save changes to this document, overwriting the existing file"
+msgstr "Įrašyti šio dokumento pakeitimus, perrašant jau esantį failą"
+
+#: ../src/PdfMod/Gui/Actions.cs:68
+msgid "Save this document to a new file"
+msgstr "Įrašyti šį dokumentą į naują failą"
+
+#: ../src/PdfMod/Gui/Actions.cs:69
 msgid "Recent _Files"
 msgstr "Paskutinieji _failai"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:55
-msgid "Rotate Right"
-msgstr "Pasukti dešinėn"
+#: ../src/PdfMod/Gui/Actions.cs:70
+msgid "_Insert From..."
+msgstr "_Įterpti iš..."
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:55
-msgid "Rotate right"
-msgstr "Pasukti dešinėn"
+#: ../src/PdfMod/Gui/Actions.cs:70
+#| msgid "Save the changes made to this document?"
+msgid "Insert pages from another document"
+msgstr "Įterpti puslapius iš kito dokumento"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:56
-msgid "Rotate Left"
-msgstr "Pasukti kairėn"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:56
-msgid "Rotate left"
-msgstr "Pasukti kairėn"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:57
-msgid "Export Images..."
-msgstr "Eksportuoti paveikslėlius..."
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:59
+#: ../src/PdfMod/Gui/Actions.cs:73
 msgid "_Edit"
 msgstr "_Keisti"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:61
-msgid "Select Even Pages"
-msgstr "Pasirinkti lyginius puslapius"
+#: ../src/PdfMod/Gui/Actions.cs:78
+msgid "Rotate Left"
+msgstr "Pasukti kairėn"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:62
+#: ../src/PdfMod/Gui/Actions.cs:78
+msgid "Rotate left"
+msgstr "Pasukti kairėn"
+
+#: ../src/PdfMod/Gui/Actions.cs:79
+msgid "Rotate Right"
+msgstr "Pasukti dešinėn"
+
+#: ../src/PdfMod/Gui/Actions.cs:79
+msgid "Rotate right"
+msgstr "Pasukti dešinėn"
+
+#: ../src/PdfMod/Gui/Actions.cs:82
 msgid "Select Odd Pages"
 msgstr "Pasirinkti nelyginius puslapius"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:63
+#: ../src/PdfMod/Gui/Actions.cs:83
+msgid "Select Even Pages"
+msgstr "Pasirinkti lyginius puslapius"
+
+#: ../src/PdfMod/Gui/Actions.cs:84
 msgid "Select Matching..."
 msgstr "Pasirinkti atitikimą..."
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:67
+#: ../src/PdfMod/Gui/Actions.cs:85
+msgid "_Invert Selection"
+msgstr "_Apversti pažymėjimą"
+
+#: ../src/PdfMod/Gui/Actions.cs:87
 msgid "_View"
 msgstr "_Rodymas"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:71
+#: ../src/PdfMod/Gui/Actions.cs:90
+msgid "Open in Viewer"
+msgstr "Atverti žiūryklėje"
+
+#: ../src/PdfMod/Gui/Actions.cs:90
+msgid "Open in viewer"
+msgstr "Atverti žiūryklėje"
+
+#: ../src/PdfMod/Gui/Actions.cs:92
+#: ../src/PdfMod/Gui/BookmarkView.cs:346
+msgid "_Bookmarks"
+msgstr "_Gairės"
+
+#: ../src/PdfMod/Gui/Actions.cs:93
+msgid "_Add Bookmark"
+msgstr "_Pridėti gairę"
+
+#: ../src/PdfMod/Gui/Actions.cs:94
+msgid "Re_name Bookmark"
+msgstr "Per_vadinti gairę"
+
+#: ../src/PdfMod/Gui/Actions.cs:95
+msgid "_Change Bookmark Destination"
+msgstr "_Keisti gairės paskirtį"
+
+#. Translators: {0} is available for you to use; contains the number of bookmarks
+#: ../src/PdfMod/Gui/Actions.cs:96
+#: ../src/PdfMod/Gui/BookmarkView.cs:383
+#, csharp-format
+msgid "_Remove Bookmark"
+msgid_plural "_Remove Bookmarks"
+msgstr[0] "Pa_šalinti gairę"
+msgstr[1] "Pa_šalinti gaires"
+msgstr[2] "Pa_šalinti gaires"
+
+#: ../src/PdfMod/Gui/Actions.cs:97
+msgid "_Edit Bookmarks"
+msgstr "_Keisti gaires"
+
+#: ../src/PdfMod/Gui/Actions.cs:99
 msgid "_Help"
 msgstr "_Žinynas"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:72
+#: ../src/PdfMod/Gui/Actions.cs:100
 msgid "_Contents"
 msgstr "_Turinys"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:79
+#: ../src/PdfMod/Gui/Actions.cs:107
+msgid "_Add"
+msgstr "_Pridėti"
+
+#: ../src/PdfMod/Gui/Actions.cs:108
+#| msgid "Remove Page"
+#| msgid_plural "Remove {0} Pages"
+msgid "_Remove"
+msgstr "Pa_šalinti"
+
+#: ../src/PdfMod/Gui/Actions.cs:111
 msgid "View and edit the title, keywords, and more for this document"
 msgstr "Rodyti ir taisyti šio dokumento pavadinimą, raktažodžius ir kt."
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:81
+#: ../src/PdfMod/Gui/Actions.cs:113
 msgid "Toolbar"
 msgstr "Įrankinė"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:157
+#: ../src/PdfMod/Gui/Actions.cs:114
+msgid "Bookmarks"
+msgstr "Gairės"
+
+#: ../src/PdfMod/Gui/Actions.cs:115
+msgid "Fullscreen"
+msgstr "Visame ekrane"
+
+#: ../src/PdfMod/Gui/Actions.cs:186
+#, csharp-format
+#| msgid "Export Images..."
+msgid "Export Image"
+msgid_plural "Export {0} Images"
+msgstr[0] "Eksportuoti {0} paveikslėlį"
+msgstr[1] "Eksportuoti {0} paveikslėlius"
+msgstr[2] "Eksportuoti {0} paveikslėlių"
+
+#: ../src/PdfMod/Gui/Actions.cs:189
+#, csharp-format
+msgid "Save image from the selected pages to a new folder"
+msgid_plural "Save {0} images from the selected pages to a new folder"
+msgstr[0] "Įrašyti {0} paveikslėlį iš pažymėtų puslapių į naują aplanką"
+msgstr[1] "Įrašyti {0} paveikslėlius iš pažymėtų puslapių į naują aplanką"
+msgstr[2] "Įrašyti {0} paveikslėlių iš pažymėtų puslapių į naują aplanką"
+
+#: ../src/PdfMod/Gui/Actions.cs:196
+msgid "_Undo"
+msgstr "_Atšaukti"
+
+#: ../src/PdfMod/Gui/Actions.cs:197
+#, csharp-format
+msgid "Undo {0}"
+msgstr "Atšaukti {0}"
+
+#: ../src/PdfMod/Gui/Actions.cs:201
+msgid "_Redo"
+msgstr "Paka_rtoti"
+
+#: ../src/PdfMod/Gui/Actions.cs:202
+#, csharp-format
+#| msgid "Page {0}"
+msgid "Redo {0}"
+msgstr "Pakartoti {0}"
+
+#: ../src/PdfMod/Gui/Actions.cs:210
 #, csharp-format
 msgid "Remove Page"
 msgid_plural "Remove {0} Pages"
@@ -128,7 +235,7 @@ msgstr[0] "Pašalinti {0} puslapį"
 msgstr[1] "Pašalinti {0} puslapius"
 msgstr[2] "Pašalinti {0} puslapių"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:160
+#: ../src/PdfMod/Gui/Actions.cs:213
 #, csharp-format
 msgid "Remove the selected page"
 msgid_plural "Remove the {0} selected pages"
@@ -136,7 +243,7 @@ msgstr[0] "Pašalinti {0} pasirinktą puslapį"
 msgstr[1] "Pašalinti {0} pasirinktus puslapius"
 msgstr[2] "Pašalinti {0} pasirinktų puslapių"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:163
+#: ../src/PdfMod/Gui/Actions.cs:216
 #, csharp-format
 msgid "Extract Page"
 msgid_plural "Extract {0} Pages"
@@ -144,7 +251,7 @@ msgstr[0] "Išgauti {0} puslapį"
 msgstr[1] "Išgauti {0} puslapius"
 msgstr[2] "Išgauti {0} puslapių"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:166
+#: ../src/PdfMod/Gui/Actions.cs:219
 #, csharp-format
 msgid "Extract the selected page"
 msgid_plural "Extract the {0} selected pages"
@@ -152,93 +259,111 @@ msgstr[0] "Išgauti {0} pasirinktą puslapį"
 msgstr[1] "Išgauti {0} pasirinktus puslapius"
 msgstr[2] "Išgauti {0} pasirinktų puslapių"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:174
+#: ../src/PdfMod/Gui/Actions.cs:229
+#: ../src/PdfMod/Gui/Actions.cs:316
 msgid "Select PDF"
 msgstr "Pasirinkite PDF"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:176
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:205
-msgid "All Files"
-msgstr "Visi failai"
+#: ../src/PdfMod/Gui/Actions.cs:258
+msgid "Unable to Save Document"
+msgstr "Nepavyko įrašyti dokumento"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:199
+#: ../src/PdfMod/Gui/Actions.cs:264
 msgid "Save as..."
 msgstr "Įrašyti kaip..."
 
-#. Translators: {0} is the number of pages (always 1), and {1} is the page number, eg Page 1, or Page 5
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:264
-#, csharp-format
-msgid "Page {1}"
-msgid_plural "Page {1}"
-msgstr[0] "{1} puslapis"
-msgstr[1] "{1} puslapis"
-msgstr[2] "{1} puslapis"
+#: ../src/PdfMod/Gui/Actions.cs:333
+#: ../src/PdfMod/Gui/Client.cs:308
+msgid "Error Loading Document"
+msgstr "Klaida įkeliant dokumentą"
 
-#. Translators: {0} is the number of pages, and {1} is the first page, {2} is the last page,
-#. eg Pages 3 - 7
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:268
+#: ../src/PdfMod/Gui/Actions.cs:334
+#: ../src/PdfMod/Gui/Client.cs:309
 #, csharp-format
-msgid "Pages {1} - {2}"
-msgid_plural "Pages {1} - {2}"
-msgstr[0] "Puslapiai {1} – {2}"
-msgstr[1] "Puslapiai {1} – {2}"
-msgstr[2] "Puslapiai {1} – {2}"
+msgid "There was an error loading {0}"
+msgstr "Klaida įkeliant {0}"
 
-#. Translators: {0} is the number of pages, {1} is a comma separated list of page numbers, eg Pages 1, 4, 9
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:273
-#, csharp-format
-msgid "Pages {1}"
-msgid_plural "Pages {1}"
-msgstr[0] "{1} puslapiai"
-msgstr[1] "{1} puslapiai"
-msgstr[2] "{1} puslapiai"
-
-#. Translators: {0} is the number of pages, eg 12 Pages
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:276
-#, csharp-format
-msgid "{0} Page"
-msgid_plural "{0} Pages"
-msgstr[0] "{0} puslapis"
-msgstr[1] "{0} puslapiai"
-msgstr[2] "{0} puslapių"
-
-#. Translators: This is used for creating a folder name, be careful!
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:293
-#, csharp-format
-msgid "{0} - Images for {1}"
-msgstr "{0} - {1} paveikslėliai"
-
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:360
+#: ../src/PdfMod/Gui/Actions.cs:510
 msgid "Error opening help"
 msgstr "Klaida atveriant žinyną"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:361
+#: ../src/PdfMod/Gui/Actions.cs:511
 msgid "Would you like to open PDF Mod's online documentation?"
 msgstr "Ar pageidaujate atverti PDF Mod programos dokumentaciją internete?"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:382
+#: ../src/PdfMod/Gui/Actions.cs:532
 msgid "Visit Website"
 msgstr "Aplankyti tinklalapį"
 
-#: ../src/PdfMod/PdfMod/GlobalActions.cs:386
-msgid "translator-credits"
-msgstr "Žygimantas Beručka <zygis@gnome.org>"
+#: ../src/PdfMod/Gui/Actions.cs:534
+msgid "Primary Development:"
+msgstr "Pirminis kūrimas:"
 
-#: ../src/PdfMod/PdfMod/PdfListStore.cs:55
-#: ../src/PdfMod/PdfMod/PdfListStore.cs:63
+#: ../src/PdfMod/Gui/Actions.cs:537
+msgid "Contributors:"
+msgstr "Prisidėjo:"
+
+#. Translators: {0} and {1} are the years the copyright assertion covers; put into
+#. variables so you don't have to re-translate this every year
+#: ../src/PdfMod/Gui/Actions.cs:558
 #, csharp-format
-msgid "Page {0}"
-msgstr "{0} puslapis"
+msgid ""
+"Copyright {0} Novell Inc.\n"
+"Copyright {1} Other PDF Mod Contributors"
+msgstr ""
+"Autorinės teisės priklauso {0} Novell Inc.\n"
+"Autorinės teisės priklauso {1} kitiems prisidėjusiems prie PDF Mod"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:156
+#: ../src/PdfMod/Gui/Actions.cs:561
+msgid "translator-credits"
+msgstr ""
+"Išvertė:\n"
+"Žygimantas Beručka <zygis@gnome.org>\n"
+"Aurimas Černius <aurisc4@gmail.com>"
+
+#. Add it to the PDF document
+#: ../src/PdfMod/Gui/BookmarkView.cs:90
+msgid "New bookmark"
+msgstr "Nauja gairė"
+
+#: ../src/PdfMod/Gui/BookmarkView.cs:113
+msgid "Add Bookmark"
+msgstr "Pridėti gairę"
+
+#. Translators: {0} is available for you to use; contains the number of bookmarks
+#: ../src/PdfMod/Gui/BookmarkView.cs:137
+#, csharp-format
+#| msgid "Remove Page"
+#| msgid_plural "Remove {0} Pages"
+msgid "Remove Bookmark"
+msgid_plural "Remove Bookmarks"
+msgstr[0] "Pašalinti gairę"
+msgstr[1] "Pašalinti gaires"
+msgstr[2] "Pašalinti gaires"
+
+#: ../src/PdfMod/Gui/BookmarkView.cs:285
+#: ../src/PdfMod/Gui/BookmarkView.cs:323
+msgid "Rename Bookmark"
+msgstr "Pervadinti gairę"
+
+#: ../src/PdfMod/Gui/BookmarkView.cs:417
+#, csharp-format
+msgid "Bookmark links to page {0}"
+msgstr "Pažymėti saitus į puslapį {0}"
+
+#: ../src/PdfMod/Gui/Client.cs:86
+msgid "PDF Mod"
+msgstr "PDF Mod"
+
+#: ../src/PdfMod/Gui/Client.cs:207
 msgid "Save the changes made to this document?"
 msgstr "Įrašyti šio dokumento pakeitimus?"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:159
+#: ../src/PdfMod/Gui/Client.cs:210
 msgid "Close _Without Saving"
 msgstr "Užverti _neįrašant"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:192
+#: ../src/PdfMod/Gui/Client.cs:240
 #, csharp-format
 msgid "Continue, opening {0} document in separate windows?"
 msgid_plural "Continue, opening all {0} documents in separate windows?"
@@ -246,33 +371,85 @@ msgstr[0] "Tęsti atveriant {0} dokumentą atskirame lange?"
 msgstr[1] "Tęsti atveriant {0} dokumentus atskiruose languose?"
 msgstr[2] "Tęsti atveriant {0} dokumentų atskiruose languose?"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:196
+#: ../src/PdfMod/Gui/Client.cs:244
 msgid "Open _First"
 msgstr "Atverti _pirmą"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:197
+#: ../src/PdfMod/Gui/Client.cs:245
 msgid "Open _All"
 msgstr "Atverti _visus"
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:226
-#, csharp-format
-msgid "Loading {0}"
-msgstr "Įkeliama {0}"
+#: ../src/PdfMod/Gui/Client.cs:276
+#| msgid "Error Loading Document"
+msgid "Loading document..."
+msgstr "Įkeliamas dokumentas..."
 
-#: ../src/PdfMod/PdfMod/PdfMod.cs:246
-msgid "Error Loading Document"
-msgstr "Klaida įkeliant dokumentą"
-
-#: ../src/PdfMod/PdfMod/PdfMod.cs:247
-#, csharp-format
-msgid "There was an error loading {0}"
-msgstr "Klaida įkeliant {0}"
-
-#: ../src/PdfMod/PdfMod/PdfMod.cs:268
+#. Translators: this string is used to show current/original file size, eg "2 MB (originally 1 MB)"
+#: ../src/PdfMod/Gui/Client.cs:338
 #, csharp-format
 msgid "{0} (originally {1})"
 msgstr "{0} (iš pradžių {1})"
 
-#: ../src/PdfMod/PdfMod/QueryBox.cs:26
+#: ../src/PdfMod/Gui/Client.cs:343
+#, csharp-format
+#| msgid "{0} Page"
+#| msgid_plural "{0} Pages"
+msgid "{0} page"
+msgid_plural "{0} pages"
+msgstr[0] "{0} puslapis"
+msgstr[1] "{0} puslapiai"
+msgstr[2] "{0} puslapių"
+
+#: ../src/PdfMod/Gui/Client.cs:364
+msgid "Document is Encrypted"
+msgstr "Dokumentas yra šifruotas"
+
+#: ../src/PdfMod/Gui/Client.cs:365
+msgid "Enter the document's password to open it:"
+msgstr "Įveskite dokumento slaptažodį atvėrimui:"
+
+#: ../src/PdfMod/Gui/Client.cs:395
+msgid "PDF Documents"
+msgstr "PDF dokumentai"
+
+#: ../src/PdfMod/Gui/Client.cs:396
+msgid "All Files"
+msgstr "Visi failai"
+
+#: ../src/PdfMod/Gui/SelectMatchingBox.cs:41
 msgid "Select Matching"
 msgstr "Pasirinkti atitikimą"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:62
+#| msgid "_File"
+msgid "_Title:"
+msgstr "_Pavadinimas:"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:63
+msgid "_Author:"
+msgstr "_Autorius:"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:64
+msgid "_Keywords:"
+msgstr "Ra_ktažodžiai:"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:65
+msgid "_Subject:"
+msgstr "_Tema:"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:85
+msgid "_Revert Properties"
+msgstr "_Atstatyti savybes"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:86
+msgid "Change the document's properties back to the original values"
+msgstr "Atstatyti dokumento savybes į jų pradines vertes"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:89
+msgid "_Close"
+msgstr "_Užverti"
+
+#: ../src/PdfMod/Gui/MetadataEditorBox.cs:90
+msgid "Hide the document's properties"
+msgstr "Slėpti dokumento savybes"
+
