@@ -1,0 +1,349 @@
+# Greek translation for pdfmod.
+# Copyright (C) 2014 pdfmod's COPYRIGHT HOLDER
+# This file is distributed under the same license as the pdfmod package.
+# MarMav <mavridou@gmail.com>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pdfmod master\n"
+"POT-Creation-Date: 2014-03-11 23:23+0000\n"
+"PO-Revision-Date: 2014-03-12 10:37+0200\n"
+"Last-Translator: Maria Mavridou <mavridou@gmail.com>\n"
+"Language-Team: Greek <team@lists.gnome.gr>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.4\n"
+
+#: C/pdfmod.xml:6(title)
+msgid "The PDF Mod Manual"
+msgstr "Το Εγχειρίδιο PDF Mod "
+
+#: C/pdfmod.xml:8(para)
+msgid ""
+"This is the user's manual for PDF Mod, a simple tool for manipulating PDF "
+"documents."
+msgstr ""
+"Αυτό είναι το εγχειρίδιο χρήσης του PDF Mod, ένα απλό εργαλείο για το "
+"χειρισμό των εγγράφων PDF."
+
+#: C/pdfmod.xml:10(subtitle)
+msgid "Quick, Easy PDF Modification"
+msgstr "Γρήγορη, εύκολη Τροποποίηση PDF"
+
+#: C/pdfmod.xml:12(year)
+msgid "2009"
+msgstr "2009"
+
+#: C/pdfmod.xml:13(holder) C/pdfmod.xml:23(orgname)
+msgid "Novell, Inc."
+msgstr "Novell, Inc."
+
+#: C/pdfmod.xml:16(publishername)
+msgid "GNOME Documentation Project"
+msgstr "Έργο Τεκμηρίωσης GNOME"
+
+#: C/pdfmod.xml:20(firstname)
+msgid "Gabriel"
+msgstr "Gabriel"
+
+#: C/pdfmod.xml:21(surname)
+msgid "Burt"
+msgstr "Burt"
+
+#: C/pdfmod.xml:29(revnumber)
+msgid "0.2"
+msgstr "0.2"
+
+#: C/pdfmod.xml:30(date)
+msgid "2009-07-29"
+msgstr "2009-07-29"
+
+#: C/pdfmod.xml:33(revnumber)
+msgid "0.1"
+msgstr "0.1"
+
+#: C/pdfmod.xml:34(date)
+msgid "2009-07-25"
+msgstr "2009-07-25"
+
+#: C/pdfmod.xml:40(title)
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#: C/pdfmod.xml:41(para)
+msgid ""
+"PDF Mod is a simple tool for doing basic manipulations of PDF documents."
+msgstr ""
+"PDF Mod είναι ένα απλό εργαλείο για να κάνει τους βασικούς χειρισμούς των "
+"εγγράφων PDF."
+
+#: C/pdfmod.xml:45(para)
+msgid ""
+"With this tool, you can rotate, remove, or extract pages in a PDF document. "
+"You can also add pages from another document."
+msgstr ""
+"Με αυτό το εργαλείο, μπορείτε να περιστρέψετε, να καταργήσετε ή να εξάγετε "
+"σελίδες σε ένα έγγραφο PDF. Μπορείτε επίσης να προσθέσετε σελίδες από ένα "
+"άλλο έγγραφο."
+
+#: C/pdfmod.xml:50(para)
+msgid ""
+"You can start PDF Mod from your applications menu or launcher, or by right "
+"clicking on one or more PDF documents in the file browser, and choosing to "
+"open with PDF Mod."
+msgstr ""
+"Μπορείτε να ξεκινήσετε το PDF Mod από το μενού εφαρμογών ή την επιφάνεια "
+"εργασίας, ή κάνοντας δεξί κλικ σε ένα ή περισσότερα έγγραφα PDF στον "
+"περιηγητή αρχείων επιλέγοντας το άνοιγμά τους με με το PDF Mod."
+
+#: C/pdfmod.xml:56(para)
+msgid ""
+"Like a normal editor application, you must save the changes you make using "
+"PDF Mod. If you want to keep the original document and save your changes to "
+"a new file, use Save As."
+msgstr ""
+"Όπως σε μια κανονική εφαρμογή επεξεργασίας, πρέπει να αποθηκεύσετε τις "
+"αλλαγές που κάνετε χρησιμοποιώντας το PDF Mod. Αν θέλετε να διατηρήσετε το "
+"αρχικό έγγραφο και να αποθηκεύσετε τις αλλαγές σας σε ένα νέο αρχείο, "
+"χρησιμοποιήστε Αποθήκευση ως."
+
+#: C/pdfmod.xml:63(title)
+msgid "Usage"
+msgstr "Χρήση"
+
+#: C/pdfmod.xml:66(title)
+msgid "Opening a Document"
+msgstr "Άνοιγμα ενός εγγράφου"
+
+#: C/pdfmod.xml:67(para)
+msgid "To open a document in PDF Mod:"
+msgstr "Για να ανοίξετε ένα έγγραφο στο PDF Mod:"
+
+#: C/pdfmod.xml:72(para)
+msgid ""
+"Choose <menuchoice><guimenu>File</guimenu><guimenuitem>Open</guimenuitem></"
+"menuchoice> and select your document, or"
+msgstr ""
+"Επιλέξτε <menuchoice><guimenu>Αχείο</guimenu><guimenuitem>Άνοιγμα</"
+"guimenuitem></menuchoice> και επιλέξτε το έγγραφό σας, ή"
+
+#: C/pdfmod.xml:77(para)
+msgid ""
+"Press <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> and "
+"select your document, or"
+msgstr ""
+"Πατήστε <keycombo><keycap>Ctrl</keycap><keycap>O</keycap></keycombo> και "
+"επιλέξτε το έγγραφό σας, ή"
+
+#: C/pdfmod.xml:87(para)
+msgid ""
+"Drag a PDF document from your Desktop or file browser into a PDF Mod window "
+"that doesn't already have a document loaded, or"
+msgstr ""
+"Σύρετε ένα αρχείο από την επιφάνεια εργασίας σας ή το πρόγραμμα περιήγησης "
+"αρχείων σε ένα παράθυρο του PDF Mod που δεν έχει ήδη φορτώσει κάποιο "
+"έγγραφο, ή"
+
+#: C/pdfmod.xml:92(para)
+msgid ""
+"Choose a document from <menuchoice><guimenu>File</"
+"guimenu><guimenuitem>Recent Documents</guimenuitem></menuchoice>."
+msgstr ""
+"Επιλέξτε ένα έγγραφο από το <menuchoice><guimenu>Αρχείο</"
+"guimenu><guimenuitem>Πρόσφατα έγγραφα</guimenuitem></menuchoice>."
+
+#: C/pdfmod.xml:100(title)
+msgid "Zooming"
+msgstr "Ζουμ"
+
+#: C/pdfmod.xml:101(para)
+msgid ""
+"Zooming will make the page thumbnails bigger or smaller. PDF Mod starts in "
+"Best Fit mode, where it tries to make all the pages visible at once."
+msgstr ""
+"Το Ζουμ θα κάνει τις μικρογραφίες σελίδων μεγαλύτερες ή μικρότερες. Το PDF "
+"Mod ξεκινά σε λειτουργία Καλύτρης Προσαρμογής, όπου προσπαθεί να κάνει όλες "
+"τις σελίδες να εμφανίζονται ταυτόχρονα."
+
+#: C/pdfmod.xml:104(para)
+msgid ""
+"You can zoom in or out with the options under <menuchoice><guimenu>View</"
+"guimenu></menuchoice>, or by pressing <keycap>Ctrl</keycap> and moving your "
+"mouse's scroll wheel."
+msgstr ""
+"Μπορείτε να κάνετε μεγέθυνση ή σμίκρυνση με τις επιλογές στο "
+"<menuchoice><guimenu>Προβολή</guimenu></menuchoice>, ή πατώντας το "
+"<keycap>Ctrl</keycap> και μετακινώντας τον τροχό κύλισης του ποντικιού σας."
+
+#: C/pdfmod.xml:110(title)
+msgid "Viewing and Editing Properties"
+msgstr "Προβολή και Επεξεργασία Ιδιοτήτων"
+
+#: C/pdfmod.xml:111(para)
+msgid ""
+"You can view and edit the Title, Author, Keywords, and Subject of the "
+"document by opening the properties. To do so, choose "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Properties</guimenuitem></"
+"menuchoice>, press <keycombo><keycap>Alt</keycap><keycap>Enter</keycap></"
+"keycombo>, or click the Properties button on the toolbar."
+msgstr ""
+"Μπορείτε να δείτε και να επεξεργαστείτε τον Τίτλο, τον Συγγραφέα, Λέξεις-"
+"Κλειδιά, και το Θέμα του εγγράφου με το άνοιγμα των ιδιοτήτων. Για να το "
+"κάνετε αυτό, επιλέξτε <menuchoice><guimenu>Αρχείο</"
+"guimenu><guimenuitem>Ιδιότητες</guimenuitem></menuchoice>, πιέστε "
+"<keycombo><keycap>Alt</keycap><keycap>Enter</keycap></keycombo>, ή κάντε "
+"κλικ στο κουμπί Ιδιότητες στη γραμμή εργαλείων."
+
+#: C/pdfmod.xml:119(title)
+msgid "Selecting Pages"
+msgstr "Επιλογή Σελίδων"
+
+#: C/pdfmod.xml:120(para)
+msgid ""
+"PDF Mod can automatically select all pages, even-numbered pages, odd-"
+"numbered pages, or pages containing a search term. These options are "
+"available under <menuchoice><guimenu>Edit</guimenu></menuchoice>."
+msgstr ""
+"Το PDF Mod μπορεί να επιλέγει αυτόματα όλες τις σελίδες, ζυγές σελίδες, "
+"μονές σελίδες ή σελίδες που περιέχουν έναν όρο αναζήτησης. Αυτές οι επιλογές "
+"είναι διαθέσιμες στο πλαίσιο <menuchoice><guimenu>Επεξεργασία</guimenu></"
+"menuchoice>."
+
+#: C/pdfmod.xml:124(para)
+msgid ""
+"You can select pages manually using the keyboard and mouse as well. Use "
+"<keycap>Ctrl</keycap> or <keycap>Shift</keycap> to select more than one page."
+msgstr ""
+"Μπορείτε να επιλέξετε τις σελίδες χειροκίνητα χρησιμοποιώντας το "
+"πληκτρολόγιο και το ποντίκι. Χρησιμοποιήστε <keycap>Ctrl</keycap> ή "
+"<keycap>Shift</keycap> για να επιλέξετε περισσότερες από μία σελίδα."
+
+#: C/pdfmod.xml:130(title)
+msgid "Moving Pages"
+msgstr "Μετακίνηση Σελίδων"
+
+#: C/pdfmod.xml:131(para)
+msgid ""
+"To move (aka reorder) the selected page or pages, drag them to the position "
+"in the document to which you want them moved."
+msgstr ""
+"Για να μετακινήσετε (γνωστό και ως αναδιάταξη) την επιλεγμένη σελίδα ή "
+"σελίδες, σύρετε τες στη θέση του εγγράφου στην οποία θέλετε να μετακινηθούν."
+
+#: C/pdfmod.xml:135(para)
+msgid ""
+"All editing actions except removing pages can be undone by choosing "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></"
+"menuchoice> or by pressing <keycombo><keycap>Ctrl</keycap><keycap>Z</"
+"keycap></keycombo>."
+msgstr ""
+"Όλες οι ενέργειες επεξεργασίας εκτός από την αφαίρεση των σελίδων μπορεί να "
+"αναιρεθεί με την επιλογή <menuchoice><guimenu>Επεξεργασία</"
+"guimenu><guimenuitem>Undo</guimenuitem></menuchoice> ή πατώντας το "
+"<keycombo><keycap>Ctrl</keycap><keycap>Z</keycap></keycombo>."
+
+#: C/pdfmod.xml:144(title)
+msgid "Extracting Pages"
+msgstr "Εξαγωγή Σελίδων"
+
+#: C/pdfmod.xml:145(para)
+msgid ""
+"Extracting the selected page or pages will open a new PDF Mod window with "
+"just the selected pages in a new document, ready for further editing or to "
+"save."
+msgstr ""
+"Εξαγωγή της επιλεγμένης σελίδας ή των σελίδων θα ανοίξει ένα νέο παράθυρο "
+"PDF Mod μόνο με τις επιλεγμένες σελίδες σε ένα νέο έγγραφο, έτοιμο για "
+"περαιτέρω επεξεργασία ή για αποθήκευση."
+
+#: C/pdfmod.xml:148(para)
+msgid ""
+"To extract the selected page or pages, choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Extract Page</guimenuitem></menuchoice>."
+msgstr ""
+"Για να εξαγάγετε την επιλεγμένη σελίδα ή τις σελίδες, επιλέξτε "
+"<menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Εξαγωγή σελίδας</"
+"guimenuitem></menuchoice>."
+
+#: C/pdfmod.xml:152(para)
+msgid ""
+"All of the editing and selection actions available under "
+"<menuchoice><guimenu>Edit</guimenu></menuchoice> are also available by right "
+"clicking on a page. Some actions are available on the toolbar as well."
+msgstr ""
+"Όλες οι ενέργειες επεξεργασίας και επιλογής που είναι διαθέσιμες στο πλαίσιο "
+"<menuchoice><guimenu>Επεξεργασία</guimenu></menuchoice> είναι επίσης "
+"διαθέσιμες πατώντας δεξί κλικ σε μια σελίδα. Ορισμένες ενέργεις είναι επίσης "
+"διαθέσιμες στη γραμμή εργαλείων. "
+
+#: C/pdfmod.xml:160(title)
+msgid "Rotating Pages"
+msgstr "Περιστροφή Σελίδων"
+
+#: C/pdfmod.xml:161(para)
+msgid ""
+"To rotate the selected page or pages, choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Rotate Page</guimenuitem></menuchoice> or press "
+"<keycombo><keycap>[</keycap></keycombo> to rotate left (CCW) and "
+"<keycombo><keycap>]</keycap></keycombo> to rotate right (CW)."
+msgstr ""
+"Για να περιστρέψετε την επιλεγμένη σελίδα ή τις σελίδες, επιλέξτε "
+"<menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Περιστροφή Σελίδας</"
+"guimenuitem></menuchoice> ή πατήστε <keycombo><keycap>[</keycap></keycombo> "
+"για περιστροφή προς τα αριστερά (CCW) και <keycombo><keycap>]</keycap></"
+"keycombo> για περιστροφή προς τα δεξιά (CW)."
+
+#: C/pdfmod.xml:168(title)
+msgid "Removing Pages"
+msgstr "Αφαίρεση Σελίδων"
+
+#: C/pdfmod.xml:169(para)
+msgid ""
+"To remove the selected page or pages, press <keycap>Delete</keycap> or "
+"choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Remove Page</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Για να αφαιρέσετε την επιλεγμένη σελίδα ή τις σελίδες, πατήστε το πλήκτρο "
+"<keycap>Διαγραφή</keycap> ή επιλέξτε <menuchoice><guimenu>Επεξεργασία</"
+"guimenu><guimenuitem>Αφαίρεση Σελίδας</guimenuitem></menuchoice>."
+
+#: C/pdfmod.xml:174(para)
+msgid ""
+"It is not currently possible to undo this action via "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Undo</guimenuitem></"
+"menuchoice>. You can close the document without saving and open it again to "
+"get your page back, though you will lose any other changes you have made."
+msgstr ""
+"Δεν είναι δυνατό να αναιρέσετε αυτήν την ενέργεια μέσω του "
+"<menuchoice><guimenu>Επεξεργασία</guimenu><guimenuitem>Αναίρεση</"
+"guimenuitem></menuchoice>. Μπορείτε να κλείσετε το έγγραφο χωρίς να το "
+"αποθηκεύσετε και να το ανοίξετε και πάλι για να πάρει τη σελίδα σας πίσω, αν "
+"και θα χάσετε οποιεσδήποτε άλλες αλλαγές έχετε κάνει."
+
+#: C/pdfmod.xml:182(title)
+msgid "Saving"
+msgstr "Αποθήκευση"
+
+#: C/pdfmod.xml:183(para)
+msgid ""
+"After making changes to the document, there are two ways to save your work. "
+"You can overwrite the original document by choosing "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save</guimenuitem></"
+"menuchoice>, or you can save your changes to a new file by choosing "
+"<menuchoice><guimenu>File</guimenu><guimenuitem>Save As</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Αφού κάνετε τις αλλαγές στο έγγραφο, υπάρχουν δύο τρόποι για να αποθηκεύσετε "
+"την εργασία σας. Μπορείτε να αντικαταστήσετε το πρωτότυπο έγγραφο με την "
+"επιλογή <menuchoice><guimenu>Αρχείο</guimenu><guimenuitem>Αποθήκευση</"
+"guimenuitem></menuchoice>, ή μπορείτε να αποθηκεύσετε τις αλλαγές σας σε ένα "
+"νέο αρχείο επιλέγοντας <menuchoice><guimenu>Αρχείο</"
+"guimenu><guimenuitem>Αποθήκευση ως</guimenuitem></menuchoice>."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/pdfmod.xml:0(None)
+msgid "translator-credits"
+msgstr "Maria Mavridou <mavridou@gmail.com>, 2014"
