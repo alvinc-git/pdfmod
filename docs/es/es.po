@@ -3,10 +3,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: pdf mod doc\n"
-"POT-Creation-Date: 2009-08-07 18:16+0000\n"
+"POT-Creation-Date: 2013-12-19 16:09+0000\n"
 "PO-Revision-Date: 2009-08-09 18:40+0200\n"
 "Last-Translator: Jorge González <jorgegonz@svn.gnome.org>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -327,13 +328,13 @@ msgid ""
 "menuchoice>."
 msgstr ""
 "Después de realizar cambios en el documento, hay dos formas diferentes de "
-"guardar su trabajo. Puede sobreescribir el documento original eligiendo "
+"guardar su trabajo. Puede sobrescribir el documento original eligiendo "
 "<menuchoice><guimenu>Archivo</guimenu><guimenuitem>Guardar</guimenuitem></"
 "menuchoice> o puede guardar los cambios en un nuevo archivo eligiendo "
 "<menuchoice><guimenu>Archivo</guimenu><guimenuitem>Guardar como</"
 "guimenuitem></menuchoice>."
 
-#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
 #: C/pdfmod.xml:0(None)
 msgid "translator-credits"
 msgstr "Andreu Correa Casablanca <castarco@gmail.com>, 2009"
