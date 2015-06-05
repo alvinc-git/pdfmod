@@ -91,7 +91,7 @@ msgid ""
 "clicking on one or more PDF documents in the file browser, and choosing to "
 "open with PDF Mod."
 msgstr ""
-"Aplikaci PDF Mod můžete spustit ze své aplikační nabídky nebo spouštěče a "
+"Aplikaci PDF Mod můžete spustit ze své nabídky aplikací nebo spouštěčem a "
 "nebo kliknutím pravým tlačítkem na jeden nebo více dokumentů PDF ve správci "
 "souborů a volbou Otevřít s PDF Mod."
 
