@@ -78,7 +78,7 @@ esac
 }
 
 (which gnome-doc-prepare && gnome-doc-prepare --force )|| {
-        echo "**Error**: You must have gnome-common installed to compile $PROJECT."
+        echo "**Error**: You must have gnome-common (or gnome-doc-utils) installed to compile $PROJECT."
         exit 1
 }
 
